@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midnight Heist: Protocol Zero</title>
+  <link rel="icon" href="data:,">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #050811;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      font-family: monospace;
+    }
+    canvas {
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+      border: 2px solid #1e293b;
+      background-color: #0a0f1d;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="gameCanvas" width="1280" height="800"></canvas>
+  <script type="module" src="./src/game.js"></script>
+</body>
+</html>
